@@ -1,6 +1,6 @@
 # NYC Taxi Batch Pipeline with PySpark
 
-[![CI](https://github.com/kaajjalchoudhary/Data-Engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/kaajjalchoudhary/Data-Engineering/actions/workflows/ci.yml)
+[![CI](https://github.com/kaajjalchoudhary/nyc-taxi-batch-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/kaajjalchoudhary/nyc-taxi-batch-pipeline/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![PySpark](https://img.shields.io/badge/PySpark-3.5-E25A1C?logo=apachespark&logoColor=white)
 
@@ -48,8 +48,8 @@ flowchart LR
 Requires Python 3.9+ and Java 17 (for Spark).
 
 ```bash
-git clone https://github.com/kaajjalchoudhary/Data-Engineering.git
-cd Data-Engineering
+git clone https://github.com/kaajjalchoudhary/nyc-taxi-batch-pipeline.git
+cd nyc-taxi-batch-pipeline
 python -m venv .venv && source .venv/bin/activate
 make install
 
